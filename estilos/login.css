@@ -33,3 +33,21 @@ p{
 #novo{
     color: white;
 }
+@media (min-width: 390px) and (max-width: 844px){
+    .form{
+        border: none;
+        padding: 10px;
+        width: 20em;
+    }
+    #entrar{
+        margin-top: 30px;
+        width: 22em;
+        border-radius: 0px;
+        padding-top: 0px;
+        height: 3em;
+        background-color: #6A0DFD;
+        color: white;
+        border: none;
+    
+    }
+}
