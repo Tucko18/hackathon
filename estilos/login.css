@@ -1,0 +1,35 @@
+.entrar{
+    background-color: rgba(0, 0, 0, 0.405);
+    margin-top: 30px;
+    text-align: center;
+   padding-bottom: 60px;
+   margin-left: 50px;
+   margin-right: 50px;
+}
+.txtentrar{
+    padding-right: 9.7em;
+    font-size: 2em;
+    
+}
+p{
+    padding: 20px;
+}
+.form{
+    border: none;
+    padding: 10px;
+    width: 30em;
+}
+#entrar{
+    margin-top: 30px;
+    width: 32em;
+    border-radius: 0px;
+    padding-top: 0px;
+    height: 3em;
+    background-color: #6A0DFD;
+    color: white;
+    border: none;
+
+}
+#novo{
+    color: white;
+}
