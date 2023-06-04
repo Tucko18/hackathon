@@ -2,13 +2,15 @@
     background-color: rgba(0, 0, 0, 0.405);
     margin-top: 30px;
     text-align: center;
-   padding-bottom: 60px;
-   margin-left: 50px;
-   margin-right: 50px;
+    padding-bottom: 60px;
+    margin-left: 15em;
+    margin-right: 15em;
+
 }
 .txtentrar{
-    padding-right: 9.7em;
+    padding-right: 10em;
     font-size: 2em;
+    margin-left: 20px;
     
 }
 p{
@@ -31,8 +33,17 @@ p{
 
 }
 #novo{
-    color: white;
+   margin-top: 30px;
 }
+#novo > a {
+    color: #9A0BE3;
+    font-size: 1em;
+}
+#novo > a:hover {
+    color: #6A0DFD;
+    font-size: 1em;
+}
+
 @media (min-width: 390px) and (max-width: 844px){
     .form{
         border: none;
@@ -48,6 +59,15 @@ p{
         background-color: #6A0DFD;
         color: white;
         border: none;
+    
+    }
+    .entrar{
+        background-color: rgba(0, 0, 0, 0.405);
+        margin-top: 30px;
+        text-align: center;
+        padding-bottom: 60px;
+        margin-left: 10em;
+        margin-right: 10em;
     
     }
 }

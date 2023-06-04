@@ -1,0 +1,39 @@
+#pesquisar{
+    height: 4em;
+    width: 30em;
+
+}
+#pesquisar{
+    width: 98vw;
+    height: 4em;
+    margin-top:  10px;
+    background-color: #ffffff;
+    border-color:#5fddd0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #1c1c1f74;
+    font: 'Qwitcher Grypen', cursive;
+    text-align:initial;
+    font-size: 1em;
+}
+.users{
+    width: 98vw;
+    height: 4em;
+    margin-top:  10px;
+    background-color: #9A0BE3;
+    border-color:#5fddd0;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px #1c1c1f74;
+    font: 'Qwitcher Grypen', cursive;
+    text-align:initial;
+    font-size: 1em;
+}
+img{
+    border-radius: 20px;
+    width: 60px;
+}
+p{
+    margin-top: -50px;
+    margin-left: 90px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}

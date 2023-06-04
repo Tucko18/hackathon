@@ -1,0 +1,25 @@
+main{
+    background-color: white;
+    height: 80vh;
+    margin-top: 20px;
+}
+iframe{
+    display: block;
+    width:100vw;
+    height: 80vh;
+}
+main > a{
+    margin-left: 30px;
+    font-size: 20px;
+    background-color: #bd38ff;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+
+}
+main > a:hover{
+    color: white;
+}
