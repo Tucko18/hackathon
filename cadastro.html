@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/cadastro.css">
     <title>Document</title>
 </head>
 <body>
@@ -23,7 +24,33 @@
         </nav>
     </header>
     <main>
-        
+        <form action="">
+
+            <label for="inome">Nome :</label> <input type="text" name="nome" id="inome">
+            <label for="iemail">Email :</label> <input type="email" name="email" id="iemail">
+            <label for="">Você faz parte de alguma instituição?</label> 
+            <label for="isim" class="qst">Sim</label> <input type="radio" class="qst" name="nao" id="inao"> 
+            <label for="inao"  class="qst">Não</label>
+             <input type="radio" name="" id="isim">
+             <select>
+                <option value="opcao1">Terminei o ensino médio</option>
+                <option value="opcao2">6º </option>
+                <option value="opcao3">7º</option>
+                <option value="opcao4">8º</option>
+                <option value="opcao5">9º</option>
+                <option value="opcao6">1º médio</option>
+                <option value="opcao7">2º médio</option>
+                <option value="opcao8">3º médio</option>
+              </select>
+              
+            <label for="iescola">Instituição (caso fizer parte) :</label> <input type="text" name="escola" id="iescola">
+            <label for="itempo">Tempo disponível</label> 
+            <label for="itime" class="qst">Das:</label>
+            <input type="time" name="" id="itime">
+            <label for="itime" class="qst">Às :</label>
+            <input type="time" name="" id="itime">
+            <label for="inasce">Data de nascimento :</label>
+            <input type="date" name="nasce" id="inasce">
     </main>
 </body>
 </html>

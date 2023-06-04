@@ -59,12 +59,15 @@ nav ul li{
     margin: 10px 20px;
 }
 #login{
-    border: 1px solid rgb(255, 255, 255);
+    border: 2px solid var(--cor03);
+    color: var(--cor04);
     padding: 10px;
     border-radius: 20px;
 }
 #login:hover{
     color: var(--cor03);
+
+    border-color: black;
 }
 a:hover{
     color: var(--cor05);
