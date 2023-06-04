@@ -17,7 +17,7 @@
             <ul>
                 <li><a href="#">Exércicios</a></li>
                 <li><a href="ranking.html">Ranking</a></li>
-                <li><a href="comunicacao.html">Comunicação</a></li>
+                <li><a href="co municacao.html">Comunicação</a></li>
 
                 <li><a href="login.html" id="login">Login</a></li>
             </ul>
@@ -26,31 +26,49 @@
     <main>
         <form action="">
 
-            <label for="inome">Nome :</label> <input type="text" name="nome" id="inome">
-            <label for="iemail">Email :</label> <input type="email" name="email" id="iemail">
-            <label for="">Você faz parte de alguma instituição?</label> 
-            <label for="isim" class="qst">Sim</label> <input type="radio" class="qst" name="nao" id="inao"> 
-            <label for="inao"  class="qst">Não</label>
-             <input type="radio" name="" id="isim">
-             <select>
-                <option value="opcao1">Terminei o ensino médio</option>
-                <option value="opcao2">6º </option>
-                <option value="opcao3">7º</option>
-                <option value="opcao4">8º</option>
-                <option value="opcao5">9º</option>
-                <option value="opcao6">1º médio</option>
-                <option value="opcao7">2º médio</option>
-                <option value="opcao8">3º médio</option>
-              </select>
-              
-            <label for="iescola">Instituição (caso fizer parte) :</label> <input type="text" name="escola" id="iescola">
-            <label for="itempo">Tempo disponível</label> 
-            <label for="itime" class="qst">Das:</label>
-            <input type="time" name="" id="itime">
-            <label for="itime" class="qst">Às :</label>
-            <input type="time" name="" id="itime">
-            <label for="inasce">Data de nascimento :</label>
-            <input type="date" name="nasce" id="inasce">
+            <p>
+                <label for="inome">Nome :</label> <input type="text" name="nome" id="inome" autocomplete="username">
+            </p>
+            <p>
+                <label for="iemail">Email :</label> <input type="email" name="email" id="iemail">
+            </p>
+            <p>
+                <label for="isen">Senha:</label>
+                <input type="password" name="sen" id="isen"  required minlength="8" maxlength="20" placeholder="Senha" autocomplete="current-password">
+            </p>
+            <p>
+                <label for="">Você faz parte de alguma instituição?</label>
+                <label for="isim" class="qst">Sim</label> <input type="radio" class="qst" name="nao" id="inao">
+                <label for="inao"  class="qst">Não</label>
+                 <input type="radio" name="" id="isim">
+            </p>
+            <p>
+                <select>
+                    <option value="opcao1">Terminei o ensino médio</option>
+                    <option value="opcao2">6º </option>
+                    <option value="opcao3">7º</option>
+                    <option value="opcao4">8º</option>
+                    <option value="opcao5">9º</option>
+                    <option value="opcao6">1º médio</option>
+                    <option value="opcao7">2º médio</option>
+                    <option value="opcao8">3º médio</option>
+                  </select>
+                
+            </p>
+            <p>
+                <label for="iescola" method="post">Instituição (caso fizer parte) :</label> <input type="text" name="escola" id="iescola">
+            </p>
+            <p>
+                <label for="itempo">Tempo disponível</label>
+                <label for="itime" class="qst">Das:</label>
+                <input type="time" name="" id="itime">
+                <label for="itime" class="qst">Às :</label>
+                <input type="time" name="" id="itime">
+            </p>
+            <p>
+                <label for="inasce">Data de nascimento :</label>
+                <input type="date" name="nasce" id="inasce">
+            </p>
     </main>
 </body>
 </html>
