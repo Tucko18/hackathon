@@ -1,7 +1,31 @@
+main{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.535);
+    padding: 20px;
+}
+p{
+    text-align: left;
+}
 label{
     color: white;
     display: block;
+    margin-top: 10px;
 }
 .qst{
     display: inline;
+}
+input{
+    width: 15em;
+    height: 2em;
+    background-color: gray;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    
+    margin-top: -8em;
+}
+#cadatro{
+    margin-top: 20em;
+    width: 20px;
+    height: 20px;
 }

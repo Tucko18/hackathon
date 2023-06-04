@@ -20,6 +20,17 @@ main > a{
     border-radius: 20px;
 
 }
+main > a:active{
+    font-size: 24px;
+}
+main > a:hover{
+    border: 3px solid rgba(255, 255, 255, 0.824);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.432);
+    transition: transform .5s, border 1s;
+}
+
+
 main > a:hover{
     color: white;
 }
